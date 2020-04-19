@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { PickerView } from 'antd-mobile'
 
-import FilterFooter from '../../../../components/FilterFooter'
+import FilterFooter from '../../../FilterFooter'
 
 const province = [
   {

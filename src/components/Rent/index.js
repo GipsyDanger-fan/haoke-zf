@@ -4,8 +4,8 @@ import { NavBar, Icon } from 'antd-mobile'
 import { Link } from 'react-router-dom'
 
 // import { getUserHouses } from '../../utils/api/user'
-import HouseItem from '../../components/HouseItem'
-import NoHouse from '../../components/NoHouse'
+import HouseItem from '../HouseItem'
+import NoHouse from '../NoHouse'
 
 import styles from './index.module.css'
 import { BASE_URL } from '../../utils/axios'

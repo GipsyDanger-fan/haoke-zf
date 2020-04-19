@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import FilterFooter from '../../../../components/FilterFooter'
+import FilterFooter from '../../../FilterFooter'
 
 import styles from './index.module.css'
 
