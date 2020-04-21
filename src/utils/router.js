@@ -4,6 +4,7 @@ import Testing from './testing'
 import Home from '../pages/Home/index'
 import Map from '../pages/Map/index'
 import CityList from '../pages/CityList/index'
+import Add from '../pages/Add/index'
 import NotFound from '../pages/NotFound/index'
 
 const RouteFirst = () => {
@@ -13,6 +14,7 @@ const RouteFirst = () => {
       <Redirect from="/" to="/home" exact />
       {Testing({ path: '/map', component: Map })}
       {Testing({ path: '/citylist', component: CityList })}
+      {Testing({ path: '/rent/add', component: Add })}
       <Route component={
         () => { return <NotFound /> }
       } />

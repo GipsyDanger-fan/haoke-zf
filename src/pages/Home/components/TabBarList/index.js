@@ -27,8 +27,15 @@ class TabBarList extends Component {
   state = {
     selectedTab: this.props.location.pathname
   }
+  async componentDidMount() {
+    this.props.history.listen(location => {
+      location.pathname !== this.state.selectedTab && this.setState({
+        selectedTab: location.pathname
+      })
+    })
+  }
+
   render() {
-    console.log(this.props.location.pathname)
     return (
       <TabBar
         unselectedTintColor="#949494"
@@ -49,9 +56,6 @@ class TabBarList extends Component {
             selected={this.state.selectedTab === item.path}
             onPress={() => {
               this.props.history.push(item.path)
-              this.setState({
-                selectedTab: item.path
-              })
             }}
           />
         )}

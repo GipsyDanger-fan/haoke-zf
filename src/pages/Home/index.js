@@ -4,9 +4,9 @@ import { Route } from 'react-router-dom'
 
 import './index.css'
 
-import User from './components/User/index'
-import Default from './components/Default/index'
-import House from './components/House/index'
+import User from './pages/User/index'
+import Default from './pages/Default/index'
+import House from './pages/House/index'
 import TabBarList from './components/TabBarList'
 
 
