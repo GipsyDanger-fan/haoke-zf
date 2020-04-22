@@ -1,0 +1,44 @@
+.topNav {
+  position: fixed;
+  top:20px;
+  left:0;
+  right:0;
+  z-index: 999;
+  width: 100%;
+  padding:0 10px;
+  
+}
+.topNav .searchBox {
+  flex:9;
+}
+.topNav .city {
+  position: absolute;
+  left:20px;
+  top:10px;
+  z-index: 100;
+  padding-right: 8px;
+  border-right: 1px solid #eee;
+  backface-visibility: hidden;
+}
+.topNav .city .icon-arrow {
+  color:#7f7f80;
+  vertical-align: middle;
+  font-size: 12px;
+}
+.topNav .am-search {
+  padding: 0 8px 0 50px;
+  height: 36px;
+  overflow: hidden;
+ 
+  border-radius: 100px;
+}
+.topNav .am-search-input,.am-search {
+  background-color: #fafafa;
+}
+.topNav .map {
+  flex:1;
+  text-align: right;
+}
+.topNav .map .icon-map {
+  font-size: 24px;
+}

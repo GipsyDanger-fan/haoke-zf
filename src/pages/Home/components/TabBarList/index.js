@@ -27,12 +27,22 @@ class TabBarList extends Component {
   state = {
     selectedTab: this.props.location.pathname
   }
-  async componentDidMount() {
-    this.props.history.listen(location => {
+  unlisten
+
+  listenRouter = () => {
+    this.unlisten = this.props.history.listen(location => {
       location.pathname !== this.state.selectedTab && this.setState({
         selectedTab: location.pathname
       })
     })
+  }
+
+  async componentDidMount() {
+    this.listenRouter()
+  }
+
+  componentWillUnmount() {
+    this.unlisten()
   }
 
   render() {

@@ -4,10 +4,10 @@ import { withRouter } from 'react-router-dom'
 
 import { Flex } from 'antd-mobile'
 
-import Nav1 from '../../../../assets/images/nav-1.png'
-import Nav2 from '../../../../assets/images/nav-2.png'
-import Nav3 from '../../../../assets/images/nav-3.png'
-import Nav4 from '../../../../assets/images/nav-4.png'
+import Nav1 from '../../../../../../assets/images/nav-1.png'
+import Nav2 from '../../../../../../assets/images/nav-2.png'
+import Nav3 from '../../../../../../assets/images/nav-3.png'
+import Nav4 from '../../../../../../assets/images/nav-4.png'
 import './index.css'
 
 // 首页栏目导航的数据
@@ -46,7 +46,7 @@ class Nav extends Component {
           return <Flex.Item onClick={() => {
             this.props.history.push(item.path)
           }} key={item.id}>
-            <img src={item.img} alt=""/>
+            <img src={item.img} alt="" />
             <p>{item.title}</p>
           </Flex.Item>
         })}

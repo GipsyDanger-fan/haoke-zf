@@ -25,5 +25,8 @@ ul,li {
     box-sizing: border-box; 
 }
 div#root {
-    height: 100% !important;
+    height: 100%;
+}
+div.app {
+    height: 100%;
 }

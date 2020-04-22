@@ -5,9 +5,12 @@ import RouterFirst from './utils/router'
 
 function App() {
   return (
-    <Router>
-      <RouterFirst />
-    </Router>
+    <div className="app">
+      <Router>
+        <RouterFirst />
+      </Router>
+    </div>
+
   );
 }
 

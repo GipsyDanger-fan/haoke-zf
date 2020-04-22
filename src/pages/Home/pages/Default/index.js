@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { Carousel } from 'antd-mobile'
-import { getSwiperList } from './requset'
-import Nav from '../../components/Nav/index'
+// import { getSwiperList } from '../../../../utils/requset/home'
+import { getHomeDatasAll } from '../../../../utils/requset/home'
+import Nav from './components/Nav/index'
+import Group from './components/Group/index'
+import News from './components/News/index'
+import Search from './components/Search/index'
 import './index.css'
 class Default extends Component {
   state = {
@@ -37,11 +41,12 @@ class Default extends Component {
       </Carousel>
     )
   }
-  
+
   async componentDidMount() {
-    const swiperList = await getSwiperList()
+    // const swiperList = await getSwiperList()
+    const [swiperList] = await getHomeDatasAll()
     this.setState({
-      swiper: swiperList,
+      swiper: swiperList
     }, () => {
       this.setState({
         autoplay: true
@@ -52,10 +57,13 @@ class Default extends Component {
   render() {
     return (
       <div className="default">
+        <Search />
         {
           this.renderCarousel()
         }
         <Nav />
+        <Group />
+        <News />
       </div>
     );
   }

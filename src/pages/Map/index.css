@@ -1,0 +1,9 @@
+div.map {
+  height: 100%;
+}
+div.map div#container {
+  height: 92%;
+}
+div.map .am-navbar.am-navbar-dark {
+  height: 8%;
+}
