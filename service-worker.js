@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/haoke-zf/precache-manifest.a5f20c057e70e1022c1877b6f457e685.js"
+  "/haoke-zf/precache-manifest.731d8a20f9efd9ef7e7ff65c8d77e5e8.js"
 );
 
 self.addEventListener('message', (event) => {
