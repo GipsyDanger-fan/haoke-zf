@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/haoke-zf/static/css/main.66b7f067.chunk.css",
+    "main.js": "/haoke-zf/static/js/main.50bb8b06.chunk.js",
+    "main.js.map": "/haoke-zf/static/js/main.50bb8b06.chunk.js.map",
+    "runtime-main.js": "/haoke-zf/static/js/runtime-main.8ed8ac09.js",
+    "runtime-main.js.map": "/haoke-zf/static/js/runtime-main.8ed8ac09.js.map",
+    "static/css/2.2f90102f.chunk.css": "/haoke-zf/static/css/2.2f90102f.chunk.css",
+    "static/js/2.8704f135.chunk.js": "/haoke-zf/static/js/2.8704f135.chunk.js",
+    "static/js/2.8704f135.chunk.js.map": "/haoke-zf/static/js/2.8704f135.chunk.js.map",
+    "index.html": "/haoke-zf/index.html",
+    "precache-manifest.481cb90a3f50485f7673f7689b77099b.js": "/haoke-zf/precache-manifest.481cb90a3f50485f7673f7689b77099b.js",
+    "service-worker.js": "/haoke-zf/service-worker.js",
+    "static/css/2.2f90102f.chunk.css.map": "/haoke-zf/static/css/2.2f90102f.chunk.css.map",
+    "static/css/main.66b7f067.chunk.css.map": "/haoke-zf/static/css/main.66b7f067.chunk.css.map",
+    "static/js/2.8704f135.chunk.js.LICENSE.txt": "/haoke-zf/static/js/2.8704f135.chunk.js.LICENSE.txt",
+    "static/media/iconfont.css": "/haoke-zf/static/media/iconfont.f58b610e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ed8ac09.js",
+    "static/css/2.2f90102f.chunk.css",
+    "static/js/2.8704f135.chunk.js",
+    "static/css/main.66b7f067.chunk.css",
+    "static/js/main.50bb8b06.chunk.js"
+  ]
+}
