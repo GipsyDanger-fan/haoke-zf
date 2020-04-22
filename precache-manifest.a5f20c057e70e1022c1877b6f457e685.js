@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9c8a680ceb058265dfdee645fb86850",
+    "revision": "d818135bf22dc00059f3b65e068adb1c",
     "url": "/haoke-zf/index.html"
   },
   {
-    "revision": "f45ae2ca272f9e766ebb",
+    "revision": "c80f926469074e760e87",
     "url": "/haoke-zf/static/css/2.2f90102f.chunk.css"
   },
   {
-    "revision": "6a65f7faa312dadba578",
+    "revision": "34ab57268451eb0d6fc1",
     "url": "/haoke-zf/static/css/main.66b7f067.chunk.css"
   },
   {
-    "revision": "f45ae2ca272f9e766ebb",
-    "url": "/haoke-zf/static/js/2.8704f135.chunk.js"
+    "revision": "c80f926469074e760e87",
+    "url": "/haoke-zf/static/js/2.f07c030b.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/haoke-zf/static/js/2.8704f135.chunk.js.LICENSE.txt"
+    "url": "/haoke-zf/static/js/2.f07c030b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a65f7faa312dadba578",
-    "url": "/haoke-zf/static/js/main.50bb8b06.chunk.js"
+    "revision": "34ab57268451eb0d6fc1",
+    "url": "/haoke-zf/static/js/main.e6475177.chunk.js"
   },
   {
     "revision": "0028435c802b2cb255cc",
